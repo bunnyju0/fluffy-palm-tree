@@ -16,10 +16,10 @@ img{vertical-align: top;}
 
 #body_wrap{
     background-color: #000;
-    width: 100%;
     height: 100vh;
     margin:0 auto;
     overflow: hidden;
+
 }
 
 
@@ -257,12 +257,13 @@ header h1 svg{
         width: 100%;
         height: 150vh;
         margin:0 auto;
+        
     }
     /**/
     #gnb{
         position: absolute;
         top: 0; right: -50%;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: start;
         width: 150px;
