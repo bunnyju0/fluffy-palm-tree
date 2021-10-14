@@ -14,7 +14,8 @@ bars.addEventListener("click", function(){
     xbars.style.zIndex = "200";
     gnb.style.right = "0";
     xbars.style.right = "4.3%";
-    bars.style.right = "-10%";
+    gnb.style.display = "flex"
+    xbars.style.display = "flex"
 });
 
 
@@ -23,10 +24,15 @@ xbars.addEventListener("click", function(){
     xbars.style.opacity = "0";
     bars.style.zIndex = "200";
     xbars.style.zIndex = "0";
-    gnb.style.right = "-50%";
-    bars.style.right = "5%";
+    gnb.style.display = "none"
+    xbars.style.display = "none"
 
 });
+
+
+
+
+
 
 
 
