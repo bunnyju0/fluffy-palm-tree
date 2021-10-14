@@ -301,7 +301,7 @@ header h1 svg{
         top: 350px; left: 5%;
     }
     #text_apple img{
-        width: 100%;
+        width: 50%;
         height: 100px;
 
         border: 1px solid red;
@@ -319,7 +319,7 @@ header h1 svg{
         top: 350px; right: 2%;
     }
     #text_watch img{
-        width: 100%;
+        width: 50%;
         height: 100px;
         border: 1px solid red;
     }
