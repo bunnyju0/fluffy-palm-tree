@@ -1,2 +1,2 @@
-# fluffy-palm-tree
+# first-project
 practice
