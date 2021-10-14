@@ -215,7 +215,7 @@ header h1 svg{
     top: 31.5vh; left: 16.5%;
 }
 #text_apple img{
-    width: 90%;
+    width: 50%;
     height: 18vh;
 
 }
@@ -297,11 +297,11 @@ header h1 svg{
     #text_apple{
         top: 350px; left: 5%;
     }
-   #text_apple img{
-    width: 100%;
-    height: 50px;
-
-}
+    #text_apple img{
+        width: 100%;
+        height: 20px;
+    
+    }
     
     #watch_right img{
         top: 230px; right: 3%;
@@ -329,4 +329,5 @@ header h1 svg{
     #xbars{
         z-index: 190;
     }
+
 }
