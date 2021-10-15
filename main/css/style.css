@@ -306,15 +306,16 @@ header h1 svg{
     /**/
     #gnb{
         position: absolute;
-        top: 0; right: -50%;
+        top: 0; right: 0;
         display:none;
         flex-direction: column;
         justify-content: start;
-        width: 150px;
+        width: 200px;
         height: 150vh;
         padding-top: 50px;
         background-color:rgba(255, 255, 255,0.8);
         transition: flex 1s ease ;
+        font-weight: bold;
     }
 
     #gnb li{
@@ -379,6 +380,7 @@ header h1 svg{
 
 
     #xbars{
+        top: 20px;
         z-index: 190;
     }
 
