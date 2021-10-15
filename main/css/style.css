@@ -98,7 +98,7 @@ header h1 svg{
 
 #text_apple{
     position: absolute;
-    top: 31.5vh; left: 19.4%;
+    top: 31.5vh; left: 19.4%; right: 51%;
     z-index: 2;
     animation: apple 2s ease forwards;
 }
@@ -120,7 +120,7 @@ header h1 svg{
 
 #text_watch{
     position: absolute;
-    top: 27vh; right: 8.3%;
+    top: 27vh; right: 8.3%; left: 51%;
     z-index: 4;
     animation: watch 2s ease forwards;
 }
@@ -210,7 +210,7 @@ header h1 svg{
 }
 
 #text_apple{
-    top: 31.5vh; left: 16.5%;
+    top: 31.5vh; left: 16.5%; right: 47%;
 }
 #text_apple img{
     width: 90%;
@@ -225,7 +225,7 @@ header h1 svg{
 }
 
 #text_watch{
-    top: 27vh; right: 2%;
+    top: 27vh; right: 2%; left: 51%;
 }
 #text_watch img{
     width: 90%;
