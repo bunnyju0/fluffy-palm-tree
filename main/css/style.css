@@ -146,7 +146,7 @@ header h1 svg{
 #xbars{
     width: 27px; height: 30px;
     position: absolute;
-    top: 65px; right: -10%;
+    top: 20px; right: -10%;
     opacity: 0;
     color: #fff;
     font-size: 30px;
@@ -321,7 +321,7 @@ header h1 svg{
     #bars{
         width: 27px; height: 30px;
         position: absolute;
-        top: 65px; right: 5%;
+        top: 20px; right: 5%;
         opacity: 1;
         color: #fff;
         font-size: 30px;
@@ -337,7 +337,7 @@ header h1 svg{
 
     header h1{
         position: absolute;
-        top: 60px; left: 5%;
+        top: 15px; left: 5%;
         height: 50px;
 }
 
