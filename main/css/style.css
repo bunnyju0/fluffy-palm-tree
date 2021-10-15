@@ -44,9 +44,6 @@ header h1 svg{
     width: 100%;
     height: 4.4vh;
     margin: 7.4vh 0 0 0;
-    
- 
-
 }
 #gnb{
     width: 43%;
@@ -318,6 +315,9 @@ header h1 svg{
         width: 100%;
         height: 75px;
     }
+
+
+
     #bars{
         width: 27px; height: 30px;
         position: absolute;
@@ -327,8 +327,26 @@ header h1 svg{
         font-size: 30px;
         z-index: 200;
     }
+
+
+
     #xbars{
         z-index: 190;
     }
+
+
+    header h1{
+        position: absolute;
+        top: 60px; left: 5%;
+        height: 50px;
+}
+
+header h1 svg{ 
+    width: 100%;
+    height: 35px;
+    margin: 0 0 0 0;
+}
+
+    
 
 }
