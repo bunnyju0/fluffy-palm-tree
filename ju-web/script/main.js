@@ -328,7 +328,7 @@ slides2[2].addEventListener('click', function(){
 });
 
 slides2[3].addEventListener('click', function(){
-    lightBoxConHTitle.innerHTML = 'First Food 포스터 디자인';
+    lightBoxConHTitle.innerHTML = 'The First 포스터 디자인';
     lightBoxConP.innerHTML = '포토샵 능력을 향상시키고 싶어서 국비과정이 끝난 후<br>유튜브에서 영상에 따라 디자인을 한 후 조금 변경해서 디자인했습니다.';
     lightBoxConBtn.href = "./pdfFiles/design4.pdf";
     lightBoxConImage.setAttribute('src',conImage[3].getAttribute('src'));
