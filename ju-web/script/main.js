@@ -146,12 +146,12 @@ menu[0].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < aboutOffset){
-            window.scrollBy(0, 100);
+            window.scrollBy(0, 55);
         }
         else{
             clearInterval(scrollInrervalDown);
         }
-    }, 5);
+    }, 1);
 
 });
 
@@ -168,12 +168,12 @@ menu[1].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < skillOffset){
-            window.scrollBy(0, 100);
+            window.scrollBy(0, 55);
         }
         else{
             clearInterval(scrollInrervalDown);
         }
-    }, 5);
+    }, 1);
 });
 
 menu[2].addEventListener('click', function(ev){
@@ -189,12 +189,12 @@ menu[2].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < portfolioOffset){
-            window.scrollBy(0, 100);
+            window.scrollBy(0, 55);
         }
         else{
             clearInterval(scrollInrervalDown);
         }
-    }, 5);
+    }, 1);
 });
 
 menu[3].addEventListener('click', function(ev){
@@ -210,12 +210,12 @@ menu[3].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < connectOffset){
-            window.scrollBy(0, 100);
+            window.scrollBy(0, 55);
         }
         else{
             clearInterval(scrollInrervalDown);
         }
-    }, 5);
+    }, 1);
 });
 
 
