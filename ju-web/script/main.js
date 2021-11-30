@@ -131,7 +131,7 @@ window.addEventListener('scroll', function(){
 
 }
 
-//메뉴 크릭 스크롤
+//메뉴 클릭 스크롤
 
 menu[0].addEventListener('click', function(ev){
     ev.preventDefault();
@@ -146,7 +146,7 @@ menu[0].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < aboutOffset){
-            window.scrollBy(0, 55);
+            window.scrollBy(0, 100);
         }
         else{
             clearInterval(scrollInrervalDown);
@@ -168,7 +168,7 @@ menu[1].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < skillOffset){
-            window.scrollBy(0, 55);
+            window.scrollBy(0, 100);
         }
         else{
             clearInterval(scrollInrervalDown);
@@ -189,7 +189,7 @@ menu[2].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < portfolioOffset){
-            window.scrollBy(0, 55);
+            window.scrollBy(0, 100);
         }
         else{
             clearInterval(scrollInrervalDown);
@@ -210,7 +210,7 @@ menu[3].addEventListener('click', function(ev){
 
     let scrollInrervalDown = setInterval(function(){
         if(docElem.scrollTop < connectOffset){
-            window.scrollBy(0, 55);
+            window.scrollBy(0, 100);
         }
         else{
             clearInterval(scrollInrervalDown);
