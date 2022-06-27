@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{ display: flex; flex-direction: column;  align-items: center; justify-content: center;}
+/*헤더*/
+header {width: 100%; height: 100px; background-color: red; display: none;} 
+section{width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+
+/*메인화면*/
+.main {background: red; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.main img{background: blue; width: 200px; height: 200px;}
+.main button{margin-top: 10px; width: 200px; height: 50px;}
+
+/*질문 레이아웃*/
+.questions{ border: 1px solid red; display: flex;  flex-direction: column; display: none;}
+.questions img{ width: 400px; height: 200px; background: red;}
+.questions form{ border: 1px solid blue; margin: 20px 0 0 0; display: flex; flex-direction: column;}
+.questions form label{ border: 1px solid green; margin-top: 5px;}
+
+/*풋터*/
+footer{display:none;}
