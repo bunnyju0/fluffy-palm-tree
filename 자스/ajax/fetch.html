@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+</head>
+<body>
+    <article></article>
+    <input type="button" value="fetch" onclick="
+    /*
+     fetch('html').then(function(response){
+        response.text().then(function(text){
+            document.querySelector('article').innerHTML = text;
+        })
+     })
+     해석
+    function callbackme(){
+        console.log('응답 끝')
+    }
+     fetch('html')//서버로 요청
+     .then(  //서버 요청이 끝나면 callbackme 함수를 실행시켜줘
+     function(){}) response 라는 객체 (프로퍼티)를 넣어야함 response 이름 변경 가능
+     response 객체를 확인해서 요청이 잘 되면 status: 200 전달 오류 status: 404 전달
+     */
+    
+    fetch('').then(function(response){
+        console.log(response.status);
+        if(response.status == '404'){
+            alert('없다 임마');
+        }else{
+            alert('좋아요~');
+        }
+    });
+    ">
+
+</body>
+</html>
